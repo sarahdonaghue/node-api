@@ -1,0 +1,29 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "node api project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahdonaghue/node-api.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "sarah donaghue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahdonaghue/node-api/issues"
+  },
+  "homepage": "https://github.com/sarahdonaghue/node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  }
+}
